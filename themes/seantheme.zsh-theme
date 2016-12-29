@@ -25,7 +25,7 @@ function rvm_info() {
 
 function precmd() {
 print -rP '
-$fg[cyan]-> $fg[yellow]$(get_pwd)$(git_prompt_info)'
+$fg[magenta]-> $fg[yellow]$(get_pwd)$(git_prompt_info)'
 }
 
 PROMPT='%{$reset_color%} '
